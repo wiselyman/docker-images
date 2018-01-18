@@ -1,0 +1,2 @@
+FROM java:8
+MAINTAINER 285414629@qq.com
