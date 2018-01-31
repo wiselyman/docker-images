@@ -1,7 +1,7 @@
 FROM registry.cn-hangzhou.aliyuncs.com/google_containers/spark:1.5.1_v3
 MAINTAINER 285414629@qq.com
 ADD spark-cassandra-connector-assembly-1.5.1.jar /
-RUN spark-submit --jars /spark-cassandra-connector-assembly-1.5.1.jar
+RUN /opt/spark/bin/spark-submit --jars /spark-cassandra-connector-assembly-1.5.1.jar
 
 #ENV SPARK_CASSANDRA_CONNECTOR_VERSION=1.5.1
 #RUN git clone https://github.com/datastax/spark-cassandra-connector.git && \
