@@ -58,3 +58,4 @@ jenkins-design-language
 blueocean-autofavorite
 blueocean-display-url
 pipeline-utility-steps
+docker-workflow
