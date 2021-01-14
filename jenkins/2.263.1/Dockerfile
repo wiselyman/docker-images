@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:2.263.1
 MAINTAINER 285414629@qq.com
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
